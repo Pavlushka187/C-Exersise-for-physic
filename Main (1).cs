@@ -12,40 +12,41 @@ namespace MyCompiler {
              string жидкость=(Console.ReadLine());
             Console.WriteLine("ВВедите массу жидкости");
             int m = Convert.ToInt32(Console.ReadLine());
-            
-            if (жидкость = Вода)
+                
+            if (жидкость == "Вода")
             {
+                
                 double z = m*3.2;
                     Console.WriteLine($"Q: {z}");
             }
             /********************************************************************************/
             else
             {
-                if (жидкость = Ртуть)
+                if (жидкость == "Ртуть")
                 {
-                    z = m*0.3;
+                    double z = m*0.3;
                     Console.WriteLine($"Q: {z}");
                 }
                     else
                     {
-                        if (жидкость = Кислород)
+                        if (жидкость == "Кислород")
                         {
-                            z = m*0.2;
+                           double z = m*0.2;
                             Console.WriteLine($"Q: {z}");
                             
                         }
                         else
                         {
-                            if (жидкость = Воздух)
+                            if (жидкость == "Воздух")
                             {
-                                z = m*0.2;
-                                Console.WriteLine($"Q: {z});
+                                double z = m*0.2;
+                                Console.WriteLine($"Q: {z}");
                             }
                             else
                             {
-                                if (жидкость = Спирт)
+                                if (жидкость == "Спирт")
                                 {
-                                    z = m*0.9;
+                                    double z = m*0.9;
                                     Console.WriteLine($"Q: {z}");
                                 }
                                 else
@@ -60,6 +61,5 @@ namespace MyCompiler {
               } 
         }
     }
-}
 
-}
+
